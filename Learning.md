@@ -25,4 +25,14 @@ props: fab, color, depressed(drop-shadow) ,flat(transparent)
 
 ```
 
+##6 - Breakpoints & Visibility
+
+```
+docs:breakpoint 
+Example:
+class="hidden-md-and-down"
+class="hidden-sm-only"
+
+```
+
 
