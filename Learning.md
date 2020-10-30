@@ -100,3 +100,4 @@ slot:header
 component: v-menu
 slot:activator
 ```
+##23 - Popups (dialogs)
