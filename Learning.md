@@ -71,7 +71,7 @@ v-layout row wrap
 **Docs:Chips**
 
 ##18 - Tooltips
-hover to know some details
+hover to show some details
 ```
 component: v-tooltip
 props:top
@@ -84,3 +84,9 @@ props:v-card,v-card-action
 ```
 
 `v-responsive` for an image responsively
+
+##20 - Avatars
+```
+component: v-avatar
+props: size
+```
