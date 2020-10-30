@@ -34,5 +34,10 @@ class="hidden-md-and-down"
 class="hidden-sm-only"
 
 ```
+##7 - Toolbars
+```
+component:v-toolbar, v-toolbar-title , v-spacer
+props:flat(transperent)
+```
 
 
