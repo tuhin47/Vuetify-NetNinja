@@ -53,3 +53,9 @@ override default theme inside vuetify.js
 components: v-list,v-list-title,v-list-content
 router to
 ```
+
+##12 - Padding & Margin
+```
+docs:layout/spacing
+{property}{direction}-size
+```
