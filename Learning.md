@@ -45,3 +45,7 @@ props:flat(transperent)
 components: v-navigation-drawer,v-toolbar-side-icon
 ```
 
+##9 - Themes
+override default theme inside vuetify.js
+
+##10 - Lists
