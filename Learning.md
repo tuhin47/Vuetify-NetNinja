@@ -90,3 +90,8 @@ props:v-card,v-card-action
 component: v-avatar
 props: size
 ```
+##21 - Expansion Panels
+```
+component:v-expansion-panel
+slot:header
+```
