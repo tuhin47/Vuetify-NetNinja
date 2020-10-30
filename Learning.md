@@ -49,3 +49,7 @@ components: v-navigation-drawer,v-toolbar-side-icon
 override default theme inside vuetify.js
 
 ##10 - Lists
+```
+components: v-list,v-list-title,v-list-content
+router to
+```
