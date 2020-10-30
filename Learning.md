@@ -69,3 +69,6 @@ v-layout row wrap
 ```
 ##16 - Chips
 **Docs:Chips**
+
+##18 - Tooltips
+hover to know some details
