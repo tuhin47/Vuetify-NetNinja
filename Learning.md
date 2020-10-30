@@ -103,3 +103,14 @@ slot:activator
 ##23 - Popups (dialogs)
 
 ##24 - Form Basics
+
+##26 - Simple Form Validation
+
+```
+props: rules
+inputRules: 
+[
+v => !!v || 'This field is required',
+v => v.length >= 3 || 'Minimum length is 3 characters'
+]
+```
