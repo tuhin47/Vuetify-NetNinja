@@ -72,3 +72,15 @@ v-layout row wrap
 
 ##18 - Tooltips
 hover to know some details
+```
+component: v-tooltip
+props:top
+slot: activator
+```
+
+##19 - Cards
+```
+props:v-card,v-card-action
+```
+
+`v-responsive` for an image responsively
