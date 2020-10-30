@@ -67,3 +67,5 @@ docs:layout/spacing
 v-layout row wrap
 
 ```
+##16 - Chips
+**Docs:Chips**
