@@ -95,3 +95,8 @@ props: size
 component:v-expansion-panel
 slot:header
 ```
+##22 - Menus
+```
+component: v-menu
+slot:activator
+```
