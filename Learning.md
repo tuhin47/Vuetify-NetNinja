@@ -18,3 +18,11 @@ weight:font-weight
 terformattion: upcase,lowercase
 ```
 
+##5 - Button & Icons
+```
+docs: v-btn, v-icon
+props: fab, color, depressed(drop-shadow) ,flat(transparent)
+
+```
+
+
