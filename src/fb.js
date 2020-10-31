@@ -3,12 +3,14 @@ import 'firebase/firestore'
 
 // Initialize Firebase
 var config = {
-  apiKey: "AIzaSyDyx6ZJUPA-xs_BJMkY55mb1RDvivRD0SY",
-  authDomain: "nn-veutify-files.firebaseapp.com",
-  databaseURL: "https://nn-veutify-files.firebaseio.com",
-  projectId: "nn-veutify-files",
-  storageBucket: "nn-veutify-files.appspot.com",
-  messagingSenderId: "494018042073"
+  apiKey: `${process.env.VUE_APP_API_KEY}`,
+  authDomain: `${process.env.VUE_APP_AUTH_DOMAIN}`,
+  databaseURL: `${process.env.VUE_APP_DATABASE_URL}`,
+  projectId: `${process.env.VUE_APP_PROJECT_ID}`,
+  storageBucket: `${process.env.VUE_APP_STORAGE_BUCKET}`,
+  messagingSenderId: `${process.env.VUE_APP_MESSAGING_SENDER_ID}`,
+  appId: `${process.env.VUE_APP_APP_ID}`,
+  measurementId: `${process.env.VUE_APP_MEASUREMENT_ID}`,
 };
 firebase.initializeApp(config);
 const db = firebase.firestore();
